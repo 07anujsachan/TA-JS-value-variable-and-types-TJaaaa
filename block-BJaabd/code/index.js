@@ -10,7 +10,16 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
-
+let age =prompt( 'enter your age?')
+if( age >= 12 && age<= 55){
+  alert( 'You can participate in the marathon.')
+} else if ( age >= 4 && age <= 11){
+  alert('you are to young to participate in the marathon.')
+}else if ( age <=4 ){
+  alert( `hey kiddo ! can you walk ?` )
+} else if ( age > 55) {
+  alert(`you are too old to participate in the marathon.`)
+}
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
@@ -27,7 +36,11 @@ Program to calculate the sum of first n natural numbers(1,2,3...n are known as n
 👇
 */
 // [Your code goes here]
-
+let n= prompt(`enter a number ?`)
+let sum = 0
+for( let i=0 ; i<=n; i++){
+sum =sum+i
+}alert(sum)
 /* Switch Statement
 
  🎖Using switch statement do the following
@@ -46,7 +59,42 @@ Take a number value from user and alert the message if it matches the conditions
 
 */
 // [Your code goes here]
+let number =prompt( `enter a number ?`)
+switch (number) {
+  case '1':
+    alert('one')
+    break;
+    case '2':
+      alert('two')
+      break;
+      case '3':
+        alert('three')
+        break;
+        case '4':
+          alert('four')
+          break;
+          case '5':
+            alert('five')
+            break;
+            case '6':
+              alert('six')
+              break;
+              case '7':
+                alert('seven')
+                break;
+                 case '8':
+                alert('eight')
+                break;
+                 case '9':
+                alert('nine')
+                break;
+                case '':
+                  alert('please try again')
+                  break;
 
+  default:
+    break;
+}
 /*
 🎖Using switch statement do the following
 
@@ -67,7 +115,13 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
  🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 */
 // [your code goes here]
-
+let number1= prompt(`enter a number ` )
+let number2= prompt(`enter another number ` )
+if( number1 > number2){
+  alert(number1)
+}else {
+alert(number2)
+}
 /*
 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 */
@@ -84,5 +138,17 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
     * [ ] Mul
     * [ ] Div
 */
+let firstNumber = +prompt(` enter first number`) 
+let operation = prompt(`enter an operation ( +,-,*,/)`) 
+let secondNumber = +prompt(` enter second  number`)
+console.log( firstNumber , operation ,secondNumber);
+if(operation==='+'){
+  alert(firstNumber+secondNumber)
+}else if( operation=== '-'){
+  alert( firstNumber-secondNumber)
+}else if( operation=== '/'){
+  alert( firstNumber/secondNumber)
+}else if( operation=== '*'){
+  alert( firstNumber*secondNumber)
+}
 
-// [Your code goes here]
