@@ -5,7 +5,7 @@
 3. Declare variable `age` and `isLearning` with value `22` and `true` in the same line. hint: declaring multiplemvariable in one line.
 4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
 */
-let user = prompt( `enter your name ?`)
+let user = prompt( `Enter your name ?`)
 alert(user)
 let userName =user
 console.log(userName ,user)
