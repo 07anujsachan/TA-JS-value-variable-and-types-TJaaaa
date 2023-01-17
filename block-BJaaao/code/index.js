@@ -7,7 +7,7 @@
 
 */
 
-let num1 = 21;
+let num1 = 20;
 let num2 = 32;
 
 /*
