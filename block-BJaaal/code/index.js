@@ -5,8 +5,8 @@
 
 - Define another variable named `bio` and assign a value `Learning to code`. Use `let` keyword to define the variable.
 */
-const userName="Anuj"
-let bio="Learning to code"
+const userName = "Anuj"
+let bio = "Learning to code"
 
 let firstName = "Arya";
 let lastName = "Stark";
@@ -38,5 +38,5 @@ const taxPercent = 10;
   - Alert a message saying `The total amount is [amount]
     the tax amount is [(amount * taxPercent) / 100]
   `
-  - Above message should be in two lines
+  - Above message should be in two line
 */
